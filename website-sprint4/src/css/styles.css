@@ -1,4 +1,3 @@
-
 /* General Styles */
 *{
     margin: 0;
@@ -7,23 +6,30 @@
     font-family: 'Arial', sans-serif;
     text-decoration: none;
 }
+.main_image {
+    width: 100%;
+    height: auto;
+}
+html {
+    background-color: #333; /*Footer color*/
+}
 h2 {
     margin-top: 6px;
     margin-bottom: 6px;
 }
-/* general body section*/
 
 body {
     background-color: #ececec;
 }
 
 main {
-    margin: auto;
-    max-width: 90%;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 20px;
 }
 
 section {
+    max-width: 85%;
     margin:20px;
 }
 
@@ -43,7 +49,7 @@ button:hover {
 }
 
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], input[type="email"], input[type="url"], textarea {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -125,12 +131,14 @@ input[type="submit"]:hover {
 /* footer*/
 
 footer {
+    bottom: 0;
     text-align: center;
     padding: 20px;
     background-color: #333; /*Footer color*/
     color: #fff;
 }
 
+/* Contact Page */
 .contact-info {
     margin-bottom: 10px;
 }
@@ -176,4 +184,45 @@ footer {
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+/* Notes */ 
+
+
+/* Clipbord Page */
+
+#linkList {
+
+}
+
+#linkList li {
+    justify-content: space-between;
+    padding: 3px;
+    margin: 10px;
+}
+
+#linkForm {
+    padding-top:50px;
+    display: flex;
+    gap: 10px;
+}
+
+#linkForm input {
+    padding: 10px;
+}
+
+#linkForm button {
+    padding: 10px;
+    width: 200px;
+    align-self: center;
+}
+
+
+/* Photo search page */
+#flickr_photos img {
+}
+
+#flickr_photos p {
+    margin-bottom: 50px;
 }
