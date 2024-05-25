@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clipboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="jquery-functions.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<header class="header"></header>
 <body>
+    <header class="header"></header>
     <main>
         <section>
             <h2>Clipboard</h2></br>
@@ -25,12 +22,15 @@
                     >ChatGPT</a><button class="removeBtn">Remove</button></li></li>
             </ul>
             <form id="linkForm">
-                <input type="text" id="linkName" placeholder="Link Name" required>
-                <input type="text" id="linkUrl" placeholder="Link URL" required>
+                <input type="text" id="linkName" placeholder="example" required >
+                <input type="url" id="linkUrl" required placeholder="https://www.example.com" value="https://www.example.com">
                 <button type="submit">Add Link</button>
             </form>
         </section>  
     </main>
+    <footer class="footer"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 <footer class="footer"></footer>
 </html>
